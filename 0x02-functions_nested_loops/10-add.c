@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  *add - adds sum
- *@int: represents values
+ *@a: first interger
+ *@b: second interger
  *Return: sum
  */
-int add(int a , int b)
+int add(int a, int b)
 {
-
 	return (a + b);
 }
