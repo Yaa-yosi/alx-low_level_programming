@@ -4,7 +4,6 @@
  *@n: number to check
  *@i: divisor
  *Return: 1,0 and prime number
- **is_prime_number - print prime
  */
 int is_prime(int n, int i)
 {
@@ -18,6 +17,11 @@ int is_prime(int n, int i)
 	else
 		return (is_prime(n, i - 1));
 }
+/**
+ * is_prime_number - check for prime
+ * @n: input
+ * Return: prime
+ */
 int is_prime_number(int n)
 {
 	return (is_prime(n, n / 2));
